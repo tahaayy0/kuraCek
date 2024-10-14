@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: white; text-align: center; margin-top: 10px;">KURA ÇEK FOR BUSİNES</h1>
+        <br>
+        <hr>
+        <div class="kisiAlma">
+           
+            <input id="degerAlma" class="degerAlmaInputu" type="text" placeholder="Kuraya Eklemek İstediğiniz İsimleri Giriniz">
+            <input id="ekle" class="ekleButonu" type="button" value="Ekle" onclick="ekle()">
+            <input id="sifirla" class="sifirlaButonu" type="button" value="Sıfırla" onclick="sifirla()">
+        </div>
+        
+        <div class="kisiListesi" id="kisiListesi"> </div>
+        <input id="kuraCek" class="kuraCekButonu" type="button" value="Kura Çek" onclick="kuraCek()">
+        <div class="sonuc" id="sonuc"></div>
+    </div>
+         
+    <script src="app.js">
+    </script>
+</body>
+</html>

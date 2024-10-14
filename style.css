@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    background-color: black;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: black;
+    width: 600px;
+    height: 600px;
+    border: 2px white inset;
+    margin-top: 70px;
+}
+.kisiAlma{
+        
+    width: 600px;
+    height: 100px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.degerAlmaInputu{
+    width:350px ;
+    height: 30px;
+    border: pink 2px inherit;
+
+}
+.sifirlaButonu , .ekleButonu {
+    width: 70px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+.kisiListesi{
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    border: 2px white inset;
+}
+.liste {
+    display: inline-block;
+    margin-top:-10px;
+    width: 560px;
+    color: white;
+    margin-left: 10px;
+    
+}
+.iptalDugmesi {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+    border:none;
+    cursor: pointer;
+    background-color: white;
+}
+.sonuc {
+    width: 600px;
+    background-color: black;
+    height: 100px;
+    font-size: 50px;
+    color: white;
+    border: 2px white inset;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.kuraCekButonu{
+    width: 600px;
+    height: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    font-size:40px;
+    
+}
+.kuraCekButonu:hover{
+    background-color:white;
+    transition: 0.5s;
+    color: black;
+}
+input{
+    color: white;
+    
+}
